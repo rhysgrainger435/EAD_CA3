@@ -1,0 +1,24 @@
+﻿@page "/"
+
+@inject HttpClient Http
+@inject NavigationManager NavManager
+
+<h1>Welcome to my Project on the Beer API</h1>
+<p>This projoect is going to show several different variesties of data in beer.
+	I have implemented several different functions to show diffferent functions that came with the api 
+	I hope you enjoy !
+</p>
+
+<p>
+	To view each page you can click the menu's on the side. Or if you like you can click this button below to jump straight to the beer data page.<br>
+	<button class="btn btn-primary" @onclick="ChangeTo">Click me</button>
+</p>
+
+
+@code {
+	public void ChangeTo()
+	{
+		NavManager.NavigateTo("/beerdata");
+	}
+
+}

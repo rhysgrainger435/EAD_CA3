@@ -1,0 +1,73 @@
+﻿@page "/beerdata"
+@inject HttpClient Http
+
+<h1>List of Beers</h1>
+<p>
+	this is my standard list of beers with the option of 80 shown on this page
+	it shows data of the beer id, name, the tagline, when they were first brewed and percetange of alcohol
+</p>
+
+@if (data == null)
+{
+	<p><em>Loading...</em></p>
+}
+else
+{
+
+	<table class="table">
+		<thead>
+			<tr>
+				<th>ID</th>
+				<th>Name</th>
+				<th>Tagline</th>
+				<th>First Brewed</th>
+				<th>Alcohol percent %</th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var entry in data)
+			{
+				<tr>
+					<td>@entry.id</td>
+					<td>@entry.name</td>
+					<td>@entry.tagline</td>
+					<td>@entry.first_brewed</td>
+					<td>@entry.abv</td>
+				</tr>
+			}
+		</tbody>
+	</table>
+
+
+}
+
+
+@code {
+	private BeerEntry[] data;
+
+	protected override async Task OnInitializedAsync()
+	{
+		try
+		{
+			data = await Http.GetFromJsonAsync<BeerEntry[]>("https://api.punkapi.com/v2/beers?page=1&per_page=80");
+		}
+		catch (Exception e)
+		{
+			Console.WriteLine(e.Message);
+			throw e;
+		}
+	}
+
+	public class BeerEntry
+	{
+		public int id { get; set; }
+		public string name { get; set; }
+		public string tagline { get; set; }
+		public string first_brewed { get; set; }
+		public double abv { get; set; }
+
+	}
+
+
+}
+
