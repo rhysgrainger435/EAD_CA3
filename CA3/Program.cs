@@ -7,5 +7,5 @@ builder.RootComponents.Add<App>("#app");
 builder.RootComponents.Add<HeadOutlet>("head::after");
 
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
-
+builder.Services.AddSingleton<CA3.ILocalStorage, CA3.LocalStorage>();
 await builder.Build().RunAsync();
