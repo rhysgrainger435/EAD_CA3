@@ -1,12 +1,11 @@
-﻿@page "/beerdata"
+﻿@page "/beerdata2"
 @inject HttpClient Http
 @inject NavigationManager NavManager
 
 
 <h1>List of Beers</h1>
 <p>
-	this is my standard list of beers with the option of 80 shown on this page
-	it shows data of the beer id, name, the tagline, when they were first brewed and percetange of alcohol
+	page 2 of all the options. 
 </p>
 
 @if (data == null)
@@ -15,7 +14,7 @@
 }
 else
 {
-	<button class="btn btn-primary" @onclick="ChangeTo">Page 2</button>
+	<button class="btn btn-primary" @onclick="ChangeTo">Page 1</button>
 	<table class="table">
 		<thead>
 			<tr>
@@ -39,7 +38,7 @@ else
 			}
 		</tbody>
 	</table>
-	<button class="btn btn-primary" @onclick="ChangeTo">Page 2</button>
+	<button class="btn btn-primary" @onclick="ChangeTo">Page 1</button>
 
 
 }
@@ -52,7 +51,7 @@ else
 	{
 		try
 		{
-			data = await Http.GetFromJsonAsync<BeerEntry[]>("https://api.punkapi.com/v2/beers?page=1&per_page=80");
+			data = await Http.GetFromJsonAsync<BeerEntry[]>("https://api.punkapi.com/v2/beers?page=2&per_page=80");
 		}
 		catch (Exception e)
 		{
@@ -70,11 +69,11 @@ else
 		public double abv { get; set; }
 
 	}
-
 	public void ChangeTo()
 	{
-		NavManager.NavigateTo("/beerdata2");
+		NavManager.NavigateTo("/beerdata");
 	}
+
 
 }
 
