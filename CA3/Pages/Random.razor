@@ -1,0 +1,62 @@
+﻿@page "/random"
+@inject HttpClient Http
+
+<h1>Welcome to the random page</h1>
+<h2>See cool and new beers every time you visit the page.</h2>
+<p>Hit refresh on this page to see a new one</p>
+
+
+@if (data == null)
+{
+		<p><em>Loading...</em></p>
+}
+else
+{
+
+	  <div class="row">
+		@foreach (var item in data)
+		{
+						<div class="col-4">
+							<div class="card">
+								<img src="@item.image_url"/>
+								<div class="card-body">
+									<h5 class="card-title">@item.name</h5>
+									<p class="card-text">@item.description</p>
+								</div>
+							</div>
+						</div>
+		}
+			</div>
+
+
+
+}
+
+
+@code {
+	private BeerEntry[] data;
+
+	protected override async Task OnInitializedAsync()
+	{
+		try
+		{
+			data = await Http.GetFromJsonAsync<BeerEntry[]>("https://api.punkapi.com/v2/beers/random");
+		}
+		catch (Exception e)
+		{
+			Console.WriteLine(e.Message);
+			throw e;
+		}
+	}
+
+	public class BeerEntry
+	{
+		public string name { get; set; }
+		public string image_url { get; set; }
+		public string description { get; set; }
+	}
+
+
+
+
+}

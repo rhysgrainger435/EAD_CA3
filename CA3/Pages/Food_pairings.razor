@@ -1,0 +1,32 @@
+﻿@page "/food"
+
+@inject HttpClient Http
+@inject NavigationManager NavManager
+
+<h1>Welcome to the Food page</h1>
+<p>Below shows a number of food options that the beers can be paired with
+	click on the buttons below and see which beers go with it. 
+	They will show the name, descirpiton and strength of the beers
+</p>
+
+<p>
+	<button class="btn btn-outline-danger" @onclick="ChangeToC">Chicken Curry</button><br>
+	<button class="btn btn-outline-success" @onclick="ChangeToT">Tacos</button><br>
+</p>
+
+
+
+
+@code {
+	public void ChangeToC()
+	{
+		NavManager.NavigateTo("/chicken_curry");
+	}
+
+	public void ChangeToT()
+	{
+		NavManager.NavigateTo("/tacos");
+	}
+
+
+}

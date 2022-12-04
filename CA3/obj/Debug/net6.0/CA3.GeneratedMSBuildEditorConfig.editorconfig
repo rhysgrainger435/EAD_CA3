@@ -32,8 +32,32 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmVlckRhdGEyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/rhysg/source/repos/CA3/CA3/Pages/Beer_Name.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmVlcl9OYW1lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rhysg/source/repos/CA3/CA3/Pages/Chicken_curry.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hpY2tlbl9jdXJyeS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rhysg/source/repos/CA3/CA3/Pages/Food_pairings.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9vZF9wYWlyaW5ncy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/rhysg/source/repos/CA3/CA3/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rhysg/source/repos/CA3/CA3/Pages/Random.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmFuZG9tLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rhysg/source/repos/CA3/CA3/Pages/Tacos.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFjb3MucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rhysg/source/repos/CA3/CA3/Pages/Test.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVzdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/rhysg/source/repos/CA3/CA3/Shared/SurveyPrompt.razor]

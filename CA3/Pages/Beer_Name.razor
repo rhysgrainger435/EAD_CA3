@@ -1,0 +1,31 @@
+﻿@page "/beer_names"
+
+@inject HttpClient Http
+@inject NavigationManager NavManager
+
+<h1>Welcome to the Beer Name page</h1>
+<p>
+	This page is to show the filter sectioning by condenscing the beers down to certain types and names
+</p>
+
+<p>
+	<button class="btn btn-outline-danger" @onclick="ChangeToC">Chicken Curry</button><br>
+	<button class="btn btn-outline-success" @onclick="ChangeToT">Tacos</button><br>
+</p>
+
+
+
+
+@code {
+	public void ChangeToC()
+	{
+		NavManager.NavigateTo("/chicken_curry");
+	}
+
+	public void ChangeToT()
+	{
+		NavManager.NavigateTo("/tacos");
+	}
+
+
+}

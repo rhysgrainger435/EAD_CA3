@@ -1,0 +1,69 @@
+﻿@page "/tacos"
+
+<h1>Beers that go with Chicken Curry</h1>
+
+@inject HttpClient Http
+
+@if (data == null)
+{
+		<p><em>Loading...</em></p>
+}
+else
+{
+
+	<table class="table">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Description</th>
+					<th>Alcohol Percentage</th>
+				</tr>
+			</thead>
+			<tbody>
+			@foreach (var entry in data)
+			{
+						<tr>
+							<td>@entry.name</td>
+							<td>@entry.description</td>
+							<td>@entry.abv</td>
+						</tr>
+			}
+			</tbody>
+		</table>
+
+
+
+}
+
+
+@code {
+	private BeerEntry[] data;
+
+	protected override async Task OnInitializedAsync()
+	{
+		try
+		{
+			data = await Http.GetFromJsonAsync<BeerEntry[]>("https://api.punkapi.com/v2/beers?tacos");
+		}
+		catch (Exception e)
+		{
+			Console.WriteLine(e.Message);
+			throw e;
+		}
+	}
+
+	public class BeerEntry
+	{
+		public string name { get; set; }
+
+		public string description { get; set; }
+
+		public double abv { get; set; }
+
+
+	}
+
+
+
+
+}
