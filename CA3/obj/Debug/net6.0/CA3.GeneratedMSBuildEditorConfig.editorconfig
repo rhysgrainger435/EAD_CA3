@@ -48,16 +48,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/rhysg/source/repos/CA3/CA3/Pages/IPA.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSVBBLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rhysg/source/repos/CA3/CA3/Pages/Lager.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGFnZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rhysg/source/repos/CA3/CA3/Pages/Porter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9ydGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/rhysg/source/repos/CA3/CA3/Pages/Random.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmFuZG9tLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/rhysg/source/repos/CA3/CA3/Pages/Tacos.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFjb3MucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/rhysg/source/repos/CA3/CA3/Pages/Test.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVzdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/rhysg/source/repos/CA3/CA3/Shared/SurveyPrompt.razor]

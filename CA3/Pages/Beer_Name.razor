@@ -9,23 +9,28 @@
 </p>
 
 <p>
-	<button class="btn btn-outline-danger" @onclick="ChangeToC">Chicken Curry</button><br>
-	<button class="btn btn-outline-success" @onclick="ChangeToT">Tacos</button><br>
+	<button class="btn btn-outline-dark" @onclick="ChangeToI">Punk IPA</button><br>
+	<button class="btn btn-outline-info" @onclick="ChangeToL">Larger</button><br>
+	<button class="btn btn-outline-warning" @onclick="ChangeToP">Porter</button><br>
 </p>
 
 
 
 
 @code {
-	public void ChangeToC()
+	public void ChangeToI()
 	{
-		NavManager.NavigateTo("/chicken_curry");
+		NavManager.NavigateTo("/ipa");
 	}
 
-	public void ChangeToT()
+	public void ChangeToL()
 	{
-		NavManager.NavigateTo("/tacos");
+		NavManager.NavigateTo("/lager");
 	}
 
+	public void ChangeToP()
+	{
+		NavManager.NavigateTo("/porter");
+	}
 
 }
