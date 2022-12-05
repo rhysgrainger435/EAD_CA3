@@ -1,0 +1,85 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = CA3
+build_property.RootNamespace = CA3
+build_property.ProjectDir = C:\Users\rhysg\source\repos\CA3\CA3\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\rhysg\source\repos\CA3\CA3
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/rhysg/source/repos/CA3/CA3/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rhysg/source/repos/CA3/CA3/Pages/Account.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rhysg/source/repos/CA3/CA3/Pages/BeerData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmVlckRhdGEucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rhysg/source/repos/CA3/CA3/Pages/BeerData2.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmVlckRhdGEyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rhysg/source/repos/CA3/CA3/Pages/Beer_Name.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmVlcl9OYW1lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rhysg/source/repos/CA3/CA3/Pages/Chicken_curry.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hpY2tlbl9jdXJyeS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rhysg/source/repos/CA3/CA3/Pages/Food_pairings.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9vZF9wYWlyaW5ncy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rhysg/source/repos/CA3/CA3/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rhysg/source/repos/CA3/CA3/Pages/IPA.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSVBBLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rhysg/source/repos/CA3/CA3/Pages/Lager.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGFnZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rhysg/source/repos/CA3/CA3/Pages/Porter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9ydGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rhysg/source/repos/CA3/CA3/Pages/Random.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmFuZG9tLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rhysg/source/repos/CA3/CA3/Pages/Tacos.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFjb3MucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rhysg/source/repos/CA3/CA3/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rhysg/source/repos/CA3/CA3/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rhysg/source/repos/CA3/CA3/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-m1sbrbrw5n
+
+[C:/Users/rhysg/source/repos/CA3/CA3/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-oihay5ykbv
